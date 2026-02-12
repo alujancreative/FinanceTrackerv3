@@ -1,11 +1,3 @@
-# finance_logic.py
-# ---------------------------------------------------------
-# BACKEND LOGIC MODULE
-# Requirements Met:
-# 1. Custom Module
-# 2. Classes (Parent & Sub-class)
-# 3. File Operations
-# ---------------------------------------------------------
 '''
 ==============================================================================
 > PROJECT: A&E Finance Dashboard
@@ -20,6 +12,13 @@ The backend logic module. This file defines the core data structures
 manipulation, calculations, and file I/O operations.
 ==============================================================================
 '''
+# ---------------------------------------------------------
+# BACKEND LOGIC MODULE
+# Requirements Met:
+# 1. Custom Module
+# 2. Classes (Parent & Sub-class)
+# 3. File Operations
+# ---------------------------------------------------------
 
 class Transaction:
     """Parent Class for Income"""
@@ -81,4 +80,5 @@ class FinanceManager:
                     file.write(t.get_summary() + "\n")
             return True
         except IOError:
+
             return False
