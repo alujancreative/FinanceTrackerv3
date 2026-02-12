@@ -20,8 +20,6 @@ A simple, modern Python desktop application for tracking personal income and exp
    ```
 
 
-   You can also download the .exe file and simply run that as a standalone application- it is the same source code packed with PyInstaller.
-
 
 ## Usage & Contribution Guidelines
 
