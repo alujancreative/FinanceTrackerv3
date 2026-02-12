@@ -1,8 +1,3 @@
-# main_project.py
-# ---------------------------------------------------------
-# COMMERCIAL DASHBOARD UI (With Delete Functionality)
-# ---------------------------------------------------------
-
 '''
 ==============================================================================
 > PROJECT: A&E Finance Dashboard
@@ -267,4 +262,5 @@ if __name__ == "__main__":
         print("-" * 30)
         traceback.print_exc()
         print("-" * 30)
+
         input("Press Enter to close this window...")
